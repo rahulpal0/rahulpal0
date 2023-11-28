@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Myntra Functional Clone</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!--------------------------------------------------- header section ---------------------------------- -->
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="logo_home" src="images/logo.svg" alt="logo Home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Studio <sup>New</sup></a>
+        </nav>
+        <div class="search_bar">
+            <span class="material-symbols-outlined search_icon">search</span>
+            <input class="search_input" placeholder="Search for products, brands and more">
+        </div>
+        <div class="action_bar">
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">person</span>
+                <span class="action_name">Profile</span>
+            </div>
+
+            <div class="action_container">
+                <span class="material-symbols-outlined action_icon">favorite</span>
+                <span class="action_name">Wishlist</span>
+            </div>
+
+            <a class="action_container" href="bag.html">
+                <span class="material-symbols-outlined action_icon">shopping_bag</span>
+                <span class="action_name">Bag</span>
+                <span class="bag-item-count">0</span>
+            </a>
+        </div>
+    </header>
+    <!--------------------------------------------------- main section ---------------------------------- -->
+    <main>
+        <div class="items-container">
+        </div>
+    </main>
+    <!--------------------------------------------------- footer section ---------------------------------- -->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+
+            <div class="footer_column">
+                <h3>ONLINE SHOPPING</h3>
+
+                <a href="#">Men</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+                <a href="#">Home & Living</a>
+                <a href="#">Beauty</a>
+                <a href="#">Gift Card</a>
+                <a href="#">Myntra Insider</a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="copyright">
+            © 2023 www.WOOSHOP.com. All rights reserved.
+        </div>
+    </footer>
+<!--------------------------------------------------- popup modal ---------------------------------- -->
+    <div class="modal " data-modal>
+
+        <div class="modal-close" data-modal-close></div>
+
+        <div class="modal-content">
+            <button class="modal-close-btn" data-modal-btn>
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="newsletter-img">
+                <img src="images/newsletter.png" alt="subscribe newsletter" width="400" height="400">
+            </div>
+            
+            <div class="newsletter">
+                <form action="#">
+                    <div class="newsletter-header">
+                        <h3 class="newsletter-title">Subscribe Newsletter.</h3>
+                        <p class="newsletter-description">Subscribe <b>WOOshop</b> to get latest products and discounts update </p>
+                    </div>
+                    <input type="email" name="email" class="email-field" placeholder="Email Address" required>
+                    <button type="submit" class="newsletter-btn" data-modal-subscribe>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- ionicon  icons link  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- javascript -->
+    <script src="items.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
